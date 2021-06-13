@@ -1,0 +1,32 @@
+# ryanjamurphy/DEVONlink-obsidian
+
+[Permalink](https://github.com/ryanjamurphy/DEVONlink-obsidian/blob/96acf02beebb47591f9d6e65ddff5dae0febfa43/package.json)
+
+Cannot retrieve contributors at this time
+
+|  | { |
+| :--- | :--- |
+|  |  "name": "DEVONlink-obsidian", |
+|  |  "version": "2.1.1", |
+|  |  "description": "Open or reveal the current note in DEVONthink.", |
+|  |  "main": "main.js", |
+|  |  "scripts": { |
+|  |  "dev": "rollup --config rollup.config.js -w", |
+|  |  "build": "rollup --config rollup.config.js" |
+|  |  }, |
+|  |  "keywords": \[\], |
+|  |  "author": "", |
+|  |  "license": "MIT", |
+|  |  "devDependencies": { |
+|  |  "@rollup/plugin-commonjs": "^15.1.0", |
+|  |  "@rollup/plugin-node-resolve": "^9.0.0", |
+|  |  "@rollup/plugin-typescript": "^6.0.0", |
+|  |  "@types/node": "^14.14.36", |
+|  |  "obsidian": "https://github.com/obsidianmd/obsidian-api/tarball/master", |
+|  |  "rollup": "^2.42.4", |
+|  |  "run-applescript": "^5.0.0", |
+|  |  "tslib": "^2.0.3", |
+|  |  "typescript": "^4.0.3" |
+|  |  } |
+|  | } |
+

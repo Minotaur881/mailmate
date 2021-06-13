@@ -1,0 +1,4 @@
+# jyruzicka/omniboard
+
+ \# INCLUDE bin/\*\*/\* \# INCLUDE lib/\*\*/\* \# INCLUDE \* \# EXCLUDE \*\*/.DS\_Store \# EXCLUDE .\* \# EXCLUDE Gemfile\* \# EXCLUDE Manifest bin/omniboard CHANGELOG.md lib/omniboard.rb lib/omniboard/colour.rb lib/omniboard/column.rb lib/omniboard/columns/active.rb lib/omniboard/columns/backburner.rb lib/omniboard/columns/completed.rb lib/omniboard/columns/config.rb lib/omniboard/core\_ext.rb lib/omniboard/group.rb lib/omniboard/omniboard.rb lib/omniboard/project\_wrapper.rb lib/omniboard/property.rb lib/omniboard/renderer.rb lib/omniboard/styled\_text.rb lib/omniboard/styled\_text\_element.rb lib/omniboard/templates/column.erb lib/omniboard/templates/postamble.erb lib/omniboard/templates/preamble.erb lib/omniboard/templates/project.erb omniboard.gemspec Rakefile README.md version.txt
+
