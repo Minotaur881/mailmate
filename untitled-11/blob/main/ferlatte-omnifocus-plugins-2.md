@@ -1,0 +1,40 @@
+# ferlatte/omnifocus-plugins
+
+[Permalink](https://github.com/ferlatte/omnifocus-plugins/blob/29e900a6ba8d5bf528931d3756710e423917ee19/clear-defer-date-from-project-tasks.omnijs)
+
+Cannot retrieve contributors at this time
+
+|  | /\*{ |
+| :--- | :--- |
+|  |  "author": "Mark Ferlatte", |
+|  |  "targets": \["omnifocus"\], |
+|  |  "type": "action", |
+|  |  "identifier": "net.cryptio.clear-defer-date-from-project-tasks", |
+|  |  "version": "0.1", |
+|  |  "description": "Clears all defer dates from tasks within the selected projects.", |
+|  |  "label": "Clear defer date from project tasks", |
+|  |  "mediumLabel": "Clear defer date from project tasks", |
+|  |  "paletteLabel": "Clear defer date from project tasks", |
+|  |  }\*/ |
+|  |  |
+|  | /\* global PlugIn \*/ |
+|  |  |
+|  | \(\(\) =&gt; { |
+|  |  var action = new PlugIn.Action\(function\(selection\) { |
+|  |  // Add code to run when the action is invoked |
+|  |  console.log\("Invoked with selection", selection\); |
+|  |  selection.projects.forEach\(function\(project\) { |
+|  |  project.tasks.forEach\(function\(task\) { |
+|  |  task.deferDate = null; |
+|  |  }\); |
+|  |  }\); |
+|  |  }\); |
+|  |  |
+|  |  |
+|  |  action.validate = function\(selection\){ |
+|  |  return \(selection.projects.length &gt; 0\); |
+|  |  }; |
+|  |  |
+|  |  return action; |
+|  | }\)\(\); |
+
